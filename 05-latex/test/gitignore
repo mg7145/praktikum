@@ -1,0 +1,7 @@
+*.aux
+*.log
+*.fls
+*.pdf
+*.fdb_latexmk
+*.synctex.gz
+!urnik-resitev.pdf
