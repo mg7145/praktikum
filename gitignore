@@ -1,0 +1,10 @@
+*.aux
+*.log
+*.fls
+*.pdf
+*fdb_latexmk
+*.synctex.gz
+!*-resitev.pdf
+*.toc
+*.bbl
+*.blg

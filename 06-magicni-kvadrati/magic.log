@@ -1,0 +1,615 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.30)  6 NOV 2026 14:12
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex
+(c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-07-20>
+(C:\Program Files\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen150
+) (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2026/08/08 v26.10 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count284
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2105.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2107.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2109.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2110.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2111.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2113.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2138.
+\U@D=\dimen151
+\l@unhyphenated=\language79
+ (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count285
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4298.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Program Files\MiKTeX\tex/generic/babel/locale/sl\babel-slovene.tex
+Package babel Info: Name 'slovene' is discouraged.
+(babel)             Prefer 'slovenian' instead.
+(babel)             Reported on input line 16.
+)
+Package babel Info: Importing font and identification data for 'slovene'
+(babel)             from babel-sl.ini. Reported on input line 4426.
+ (C:\Users\mg7145\AppData\Roaming\MiKTeX\tex/latex/babel-slovenian\slovenian.ldf
+Language: slovenian 2025/05/10 v1.2p Slovenian support from the babel system
+Package babel Info: Making " an active character on input line 80.
+)) (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+) (C:\Program Files\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (C:\Users\mg7145\AppData\Roaming\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks19
+\thm@bodyfont=\toks20
+\thm@headfont=\toks21
+\thm@notefont=\toks22
+\thm@headpunct=\toks23
+\thm@preskip=\skip51
+\thm@postskip=\skip52
+\thm@headsep=\skip53
+\dth@everypar=\toks24
+) (C:\Program Files\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@definicija=\count286
+
+Runaway argument?
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:30: Paragraph ended before \@ynthm was complete.
+<to be read again> 
+                   \par 
+l.30 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 31.
+(C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2026-07-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count287
+) (magic.aux)
+\openout1 = `magic.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+Package babel Info: 'slovene' activates 'slovene' shorthands.
+(babel)             Reported on input line 31.
+Package babel Info: Main language set to 'slovene'.
+
+
+LaTeX Warning: No \author given.
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 44.
+(C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 44.
+ (C:\Program Files\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 44.
+ (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 44.
+ (C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 44.
+ (C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 44.
+ (C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 44.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 44.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 44.
+ [1
+
+{C:/Users/mg7145/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 70.
+
+[2{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
+
+LaTeX Warning: Citation `euler' on page 3 undefined on input line 123.
+
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:164: LaTeX Error: Environment izrek undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 \begin{izrek}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:176: LaTeX Error: \begin{document} ended by \end{izrek}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 \end{izrek}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[3]
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:189: Undefined control sequence.
+l.189 ...st račun pokaže, da je konstanti \eqref
+                                                  {eq:mc} analogna konstanta
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (0.6534pt too wide) in paragraph at lines 189--191
+[]\T1/lmr/m/n/12 Preprost ra-�un po-ka�e, da je kon-stanti eq:mc ana-lo-gna kon-stanta $\OML/lmm/m/it/12 M[]\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 n\OT1/lmr/m/n/12 ; \OML/lmm/m/it/12 A; D\OT1/lmr/m/n/12 )$
+ []
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:191: Undefined control sequence.
+l.191 ...(A+(n^2-1)D\), enaka \[M_2(n;A,D) = \FRAC
+                                                  {1}{2} N (2a + D(n^2-1)) \]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:207: Too many }'s.
+l.207 e}
+         [!ht]
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:210: Too many }'s.
+l.210 able:stevila}
+                   
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:211: Too many }'s.
+l.211 abular}
+              {lcccccc}\toprule
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:211: Undefined control sequence.
+l.211 abular} {lcccccc}\toprule
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:212: Misplaced alignment tab character &.
+l.212 lticolum{5}{c}{točna vrednost} &
+                                        približek \\\midrule 1 & 2 & 3 & 4 ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:212: Undefined control sequence.
+<recently read> \midrule 
+                         
+l.212 ...{točna vrednost} & približek \\\midrule
+                                                   1 & 2 & 3 & 4 & 5 & 6 \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:212: Misplaced alignment tab character &.
+l.212 ...�na vrednost} & približek \\\midrule 1 &
+                                                   2 & 3 & 4 & 5 & 6 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:212: Misplaced alignment tab character &.
+l.212 ...vrednost} & približek \\\midrule 1 & 2 &
+                                                   3 & 4 & 5 & 6 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:212: Misplaced alignment tab character &.
+l.212 ...nost} & približek \\\midrule 1 & 2 & 3 &
+                                                   4 & 5 & 6 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:212: Misplaced alignment tab character &.
+l.212 ...} & približek \\\midrule 1 & 2 & 3 & 4 &
+                                                   5 & 6 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:212: Misplaced alignment tab character &.
+l.212 ...približek \\\midrule 1 & 2 & 3 & 4 & 5 &
+                                                   6 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--213
+
+ []
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:216: Misplaced alignment tab character &.
+l.216 lo kvadratov &
+                     1 & 0 & 1 & 880 & 275305224 & \((1{,}7745 ) \)     šte...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:216: Misplaced alignment tab character &.
+l.216 lo kvadratov & 1 &
+                         0 & 1 & 880 & 275305224 & \((1{,}7745 ) \)     šte...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:216: Misplaced alignment tab character &.
+l.216 lo kvadratov & 1 & 0 &
+                             1 & 880 & 275305224 & \((1{,}7745 ) \)     šte...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:216: Misplaced alignment tab character &.
+l.216 lo kvadratov & 1 & 0 & 1 &
+                                 880 & 275305224 & \((1{,}7745 ) \)     šte...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:216: Misplaced alignment tab character &.
+l.216 lo kvadratov & 1 & 0 & 1 & 880 &
+                                       275305224 & \((1{,}7745 ) \)     šte...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:216: Misplaced alignment tab character &.
+l.216 lo kvadratov & 1 & 0 & 1 & 880 & 275305224 &
+                                                   \((1{,}7745 ) \)     šte...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:217: Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.217 \end{table}
+                 
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:217: Extra \endgroup.
+\color@endgroup ...ode \@endpefalse \fi \endgroup 
+                                                  
+l.217 \end{table}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:217: Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.217 \end{table}
+                 
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:217: LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.217 \end{table}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:217: Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.217 \end{table}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
+
+LaTeX Warning: Citation `bessy' on page 4 undefined on input line 221.
+
+
+LaTeX Warning: Citation `berlekamp' on page 4 undefined on input line 221.
+
+
+LaTeX Warning: Citation `garden' on page 4 undefined on input line 223.
+
+
+LaTeX Warning: Citation `pinn' on page 4 undefined on input line 225.
+
+[4] (magic.bbl)
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:240: Undefined control sequence.
+l.240 \booktitle
+                {Winning Ways for Your Mathematical Plays}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:241: Undefined control sequence.
+l.241 \volume
+             {2}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:243: Undefined control sequence.
+l.243 \publisher
+                {Academic Press}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:244: Undefined control sequence.
+l.244 \address
+              {London}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:245: Missing number, treated as zero.
+<to be read again> 
+                   {
+l.245 \year{
+            1982}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:247: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 \end{enumerate}
+                     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:263: Argument of \language@active@arg" has an extra }.
+<inserted text> 
+                \par 
+l.263 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:263: Paragraph ended before \language@active@arg" was complete.
+<to be read again> 
+                   \par 
+l.263 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:272: Argument of \language@active@arg" has an extra }.
+<inserted text> 
+                \par 
+l.272 }
+       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:272: Paragraph ended before \language@active@arg" was complete.
+<to be read again> 
+                   \par 
+l.272 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:282: LaTeX Error: \begin{document} ended by \end{enumerate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.282 \end{enumerate}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/mg7145/rp/racunalniski-praktikum/06-magicni-kvadrati/magic.tex:282: Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.282 \end{enumerate}
+                     
+Things are pretty mixed up, but I think the worst is over.
+
+[5] (magic.aux)
+ ***********
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-07-20>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2289 strings out of 467501
+ 40008 string characters out of 5418655
+ 456772 words of memory out of 5000000
+ 31530 multiletter control sequences out of 15000+600000
+ 665785 words of font info for 62 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,7n,44p,275b,344s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on magic.pdf (5 pages, 181432 bytes).
+PDF statistics:
+ 69 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
