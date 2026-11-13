@@ -3,9 +3,18 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
+\usepackage{amsmath}   % NALOGA 5: za \eqref, naložen PRED amsthm
 \usepackage{amsthm}
-
 \usepackage{url}
+\usepackage{booktabs}  % NALOGA 4: \toprule, \midrule, \bottomrule
+\theoremstyle{definition}
+\newtheorem{definicija}{Definicija}
+
+\theoremstyle{plain}
+\newtheorem{izrek}{Izrek}
+
+% NALOGA 6: nov ukaz za kaligrafski M z indeksom 2
+\newcommand{\m}{\mathcal{M}_2}
 
 % Nastavimo koliko prostora izpustimo pod napisom nad sliko ali tabelo.
 \setlength{\belowcaptionskip}{2mm}
@@ -21,9 +30,6 @@
 
 \title{Magični kvadrati}
 \date{}
-\newtheorem{definicija}{Definicija}{}
-\theoremstyle{definition}
-\newtheorem{izrek}
 % 1. naloga
 % Glavo dokumenta popravite tako, da se ne bo izpisal datum.
 % To naredite tako, da za ukazom `\title` dodate ukaz `\date{}`.
@@ -41,14 +47,14 @@ Prirejeno po:
 % V spodnjem okolju `itemize` uporabite ukaz `\url` na obeh spletnih naslovih
 % (naslova sta v komentarju, da ne pride do napake pri prevajanju te datoteke).
 \begin{itemize}
-   \item \url {http://mathworld.wolfram.com/MagicSquare.html}
-   \item \url {http://en.wikipedia.org/wiki/Magic_square}
+   \item \url{http://mathworld.wolfram.com/MagicSquare.html}
+   \item \url{http://en.wikipedia.org/wiki/Magic_square}
 \end{itemize}
 
 % 3. naloga
 % Na tem mestu uporabite ukaz, ki izpiše kazalo vsebine.
 % Poiščite ga na spletu: po angleško se kazalu vsebine reče "table of contents".
-
+\tableofcontents
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Konec prvega sklopa nalog
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -65,16 +71,25 @@ Prirejeno po:
    stolpca ali vsa števila v katerikoli od glavnih diagonal.
 \end{definicija}
 
-Primer magičnega kvadrata reda 3 je prikazan v tabeli ??. % sklic: table:mag3
+% NALOGA 5: ?? -> \ref
+Primer magičnega kvadrata reda 3 je prikazan v tabeli \ref{table:mag3}. % sklic: table:mag3
 
-\begin{table}[]
-\centering
-\begin{tabular}{lllll}
-8 & 1 & 6 &  &  \\
-3 & 5 & 7 &  &  \\
-4 & 9 & 2 &  &  \\
-  &   &   &  & 
-\end{tabular}
+% NALOGA 4: magični kvadrat kot tabela
+% - napis nad tabelo: Magični kvadrat reda 3
+% - oznaka: table:mag3
+% Začetek magičnega kvadrata
+\begin{table}[!ht]
+   \centering
+   \caption{Magični kvadrat reda 3}
+   \label{table:mag3}
+   \large
+   \begin{tabular}{|c|c|c|}
+      \hline
+      8 & 1 & 6 \\\hline
+      3 & 5 & 7 \\\hline
+      4 & 9 & 2 \\\hline
+   \end{tabular}
+   \normalsize
 \end{table}
 % Konec magičnega kvadrata
 
@@ -82,11 +97,12 @@ Primer magičnega kvadrata reda 3 je prikazan v tabeli ??. % sklic: table:mag3
    Magični kvadrat reda \(n\) je \emph{normalen}, če v njem nastopajo števila
    \begin{equation}
       % oznaka: eq:numbers
+      \label{eq:numbers}
       1, 2, 3, \ldots, n^2-1, n^2.
    \end{equation}
 \end{definicija}
 
-Magični kvadrat v tabeli ?? je normalen.
+Magični kvadrat v tabeli \ref{table:mag3} je normalen.
 To je tudi najmanjši netrivialen normalen magični kvadrat.
 Poleg normalnih magičnih kvadratov so zanimivi tudi magični kvadrati praštevil. % sklic: table:mag3
 
@@ -119,8 +135,9 @@ izogib boleznim.
 obliki magičnega kvadrata reda 3. Ta je v bistvu enak kot kvadrat
 Lo Shu, vendar je vsako število povečano za 19.
 
+% NALOGA 3: ??? -> \cite
 Z magičnimi kvadrati so se ukvarjali tudi najbolj znani matematiki kot na
-primer Euler, glej ~\cite {euler}. % ključ: euler
+primer Euler, glej \cite{euler}. % ključ: euler
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -163,37 +180,36 @@ in zato kvadrat ni normalen.
 % Začetek okolja izrek
 \begin{izrek}
    Magična konstanta normalnega magičnega kvadrata reda \(n\)
-   je enaka 
-
+   je enaka
    \begin{equation}
-      \label {eq:mc}
       % oznaka: eq:mc
-      % Okolje `equation` je že prikazni matematični način,
-      % zato tu izraz vpišite brez `\[` in `\]`.
-      !!
-      M_2(n) = \frac{1}{2} n (n^2 + 1)
+      \label{eq:mc}
+      \m(n) = \frac{1}{2}n(n^2+1).
    \end{equation}
 \end{izrek}
 % Konec okolja izrek
 
 % Začetek dokaza
+% NALOGA 5: ?? -> \eqref in \pageref
 \begin{proof}
    V normalnem magičnem kvadratu reda \(n\) je vsota vseh nastopajočih
-   števil (glej (/1) na strani /2) enaka
-   !!. Ker imamo
+   števil (glej \eqref{eq:numbers} na strani \pageref{eq:numbers}) enaka
+   \(1+2+3+\ldots+n^2 = \sum_{k=1}^{n^2} k = \frac{1}{2}n^2(n^2+1)\). Ker imamo
    v kvadratu \(n\) vrstic z enako vsoto, je vsota števil v eni vrstici
-   enaka številu \(M_2(n)\). % sklica: eq:numbers, eq:numbers
-\end{proof}
+   enaka številu \(\m(n)\). % sklica: eq:numbers, eq:numbers
 % Konec dokaza
+\end{proof}
 
 Preprost račun pokaže, da je konstanti \eqref{eq:mc} analogna konstanta
-\(M_2(n;A,D)\) za magični kvadrat, v katerem so nameščena števila
-\(A\), \(A+D\), \(A+2D\), \ldots, \(A+(n^2-1)D\), enaka \[M_2(n;A,D) = \FRAC{1}{2} N (2a + D(n^2-1)) \]
-!!
+\(\m(n;A,D)\) za magični kvadrat, v katerem so nameščena števila
+\(A\), \(A+D\), \(A+2D\), \ldots, \(A+(n^2-1)D\), enaka % sklic: eq:mc
+\[
+   \m(n;A,D) = \frac{1}{2}n\left(2A + D(n^2-1)\right).
+\]
 
 \begin{definicija}
       Če vsako od števil v normalnem magičnem kvadratu reda \(n\) odštejemo
-      od števila !!, dobimo nov magični kvadrat, ki je prvotnemu
+      od števila \(n^2+1\), dobimo nov magični kvadrat, ki je prvotnemu
       \emph{komplementaren}.
 \end{definicija}
 
@@ -202,27 +218,35 @@ Preprost račun pokaže, da je konstanti \eqref{eq:mc} analogna konstanta
       iz drugega s pomočjo zasukov oziroma zrcaljenj.
 \end{definicija}
 
-Števila različnih normalnih magičnih kvadratov se nahajajo v tabeli 2.
+Števila različnih normalnih magičnih kvadratov se nahajajo v tabeli \ref{table:stevila}.
 % sklic: table:stevila
-e} [!ht]
-ng
-{Število različnih normalnih magičnih kvadratov}
-able:stevila}
-abular} {lcccccc}\toprule
-lticolum{5}{c}{točna vrednost} & približek \\\midrule 1 & 2 & 3 & 4 & 5 & 6 \\
 
-      % Decimalno vejico v matematičnem načinu zapišite kot {,},
-      % sicer jo LaTeX izpiše kot ločilo, s presledkom za njo.
-lo kvadratov & 1 & 0 & 1 & 880 & 275305224 & \((1{,}7745 ) \)     število kvadratov 1 0 1 880 275305224 !!
+% NALOGA 4: tabela z booktabs
+% - napis nad tabelo: Število različnih normalnih magičnih kvadratov
+% - oznaka: table:stevila
+% Začetek tabele
+\begin{table}[!ht]
+   \centering
+   \caption{Število različnih normalnih magičnih kvadratov}
+   \label{table:stevila}
+   \begin{tabular}{lcccccc}
+      \toprule
+      & \multicolumn{5}{c}{točna vrednost} & približek \\
+      \midrule
+      red & 1 & 2 & 3 & 4 & 5 & 6 \\
+      število kvadratov & 1 & 0 & 1 & 880 & 275305224 & \((1{,}7745 \pm 0{,}0016)10^{19}\) \\
+      \bottomrule
+   \end{tabular}
 \end{table}
 % Konec tabele
 
+% NALOGA 3: ??? -> \cite
 Vse normalne magične kvadrate reda 4 je oštevilčil Frénicle de Bessy
-leta 1693, glej~\cite{bessy}, in jih je moč najti v knjig ~\cite{berlekamp}
+leta 1693, glej \cite{bessy}, in jih je moč najti v knjigi \cite{berlekamp}
 iz leta 1982. Število normalnih kvadratov reda 5 je izračunal
-R. Schroeppel leta 1973 (glej Gardner~\cite{garden}).
+R. Schroeppel leta 1973 (glej Gardner \cite{gardner}).
 Natančno število vseh različnih normalnih magičnih kvadratov reda 6 ni znano.
-Avtorja navedenega približka sta Pinn in Wieczerkowski (glej~\cite{pinn}), ki
+Avtorja navedenega približka sta Pinn in Wieczerkowski (glej \cite{pinn}), ki
 sta za oceno uporabila simulacijo Monte Carlo in metode statistične mehanike.
  % ključi: bessy, berlekamp, gardner, pinn
 
@@ -230,56 +254,10 @@ sta za oceno uporabila simulacijo Monte Carlo in metode statistične mehanike.
 
 \newpage
 
-\bibliographystyle{sian}
-\bibliography{magic}
-
-\begin{enumerate}
+% NALOGA 3: bibliografija
 % Tu vstavite bibliografijo
-
-\author{E. R. Berlekamp and J. H. Conway and R. K. Guy}
-\booktitle{Winning Ways for Your Mathematical Plays}
-\volume{2}
-\title{Games in Particular}
-\publisher{Academic Press}
-\address{London}
-\year{1982}
-
-\end{enumerate}
-@BOOK{bessy,
-   AUTHOR = "B. F. de Bessy",
-   TITLE = "Des quarrez magiques",
-   PUBLISHER = "De l'imprimerie Royale par Jean Anisson",
-   ADDRESS = "Paris",
-   YEAR = 1693
-}
-
-@ARTICLE{euler,
-   AUTHOR = "L. Euler",
-   TITLE = "De quadratis magicis",
-   JOURNAL = "Commentationes arithmeticae",
-   VOLUME = 2,
-   YEAR = 1849,
-   PAGES = "593--602"
-}
-
-@ARTICLE{gardner,
-   AUTHOR = "M. Gardner",
-   TITLE = "Mathematical Games",
-   JOURNAL = "Scientific American",
-   VOLUME = 234,
-   YEAR = 1976,
-   PAGES = "118--122"
-}
-
-@ARTICLE{pinn,
-   AUTHOR = "K. Pinn and C. Wieczerkowski",
-   TITLE = "Number of Magic Squares from Parallel Tempering Monte Carlo",
-   JOURNAL = "Int.\ J. Mod.\ Phys.\ C",
-   VOLUME = 9,
-   YEAR = 1998,
-   PAGES = "541--547
-}
-\end{enumerate}
+\bibliographystyle{siam}
+\bibliography{magic}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
